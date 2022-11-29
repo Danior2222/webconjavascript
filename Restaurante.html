@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/Mainres.js"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+  </head>
+
+<body>
+    <form>
+      <center><h3>Ingrese valor de la cuenta</h3></center>
+      <center><input id="cuenta" type="text" placeholder="Ingrese Valor"/></center>
+      <br>
+      <center><select id="elementos" class="resultado(this)">
+        <option value="1">30% Excelente </option>
+        <option value="2">20% Buena </option>
+        <option value="3">15% estuvo ok</option>
+        <option value="4">10% mala</option>
+        <option value="5">5% terrible</option>
+        </select></center>
+        <center><h3>¿Cuantas personas comparten la cuenta?</h3></center>
+       <center><input id="numero" type="text" placeholder="Inserte No personas"/></center>
+
+        
+       <br>
+       
+      <center><button onclick="resultado()">
+        <a href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Calcular
+        </a>
+      </button></center>
+
+    </form>
+    <div>
+      <ul id="lista-nombres"></ul>
+    </div>
+
+
+  </body>
+
+</html>
